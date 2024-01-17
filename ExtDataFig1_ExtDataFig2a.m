@@ -92,7 +92,7 @@ end
 for x = 1:3;
 clear Z_pw;
 CurrentSet = numData(:,x);
-cutoff = -3;
+cutoff = -2;
 N = sum(CurrentSet < cutoff);
 Ln = length(CurrentSet);
 
